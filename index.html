@@ -1,0 +1,180 @@
+<html>
+  
+<head>
+    
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  
+</head>
+
+<style>
+
+* {
+  
+margin: 0;
+  box-sizing: border-box;
+}
+
+.grid-container {
+ 
+display: grid;
+  grid-template-columns: 8vw auto;
+  grid-template-rows: 100vh;
+}
+
+
+.sidebar {
+  
+background-color: white;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.logo {
+  margin: 10px auto;
+}
+
+.student {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+background-color: transparent;
+}
+
+.lesson-plan {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.settings {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-content {
+margin-top: 70px;
+  background-color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.break {
+  font-weight: bold;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.input-url {
+  height: 50px;
+  width: 60vw;
+  border: none;
+  border-radius: 13px;
+  margin: 30px;
+  font-size: 18px;
+  font-family: bold;
+}
+
+.upload {
+  margin: 20px 13rem;
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border: none;
+  font-weight: bold;
+}
+
+
+.fa-user {
+  margin: 10px;
+}
+
+
+.fa-cog {
+  margin: 10px;
+}
+
+.fa-book {
+  margin: 10px;
+}
+
+  
+  
+</style>
+  
+<body>
+    
+    
+<div class="grid-container">
+
+  
+<div class="sidebar">
+    
+	<div class="logo">
+		<i class="fab fa-gg-circle fa-3x"></i>
+	</div>
+    
+	<div class="student">
+		<i class="far fa-user fa-lg"></i>Students
+	</div>
+
+	<div class="lesson-plan">
+		<i class="fas fa-book fa-lg"></i>Lesson Plan
+	</div>
+    
+	<div class="settings">
+		<i class="fas fa-cog fa-lg"></i>Settings
+	</div>
+</div>
+  
+<div class="main-content">
+    
+<a href="#"><i class="fas fa-arrow-circle-left"></i>Videos</a>
+    
+<div class="content">
+      
+<div class="input">
+        
+<input class="input-url" type="text" placeholder=" Insert URL here">
+      
+</div>
+      
+<div class="break">or</div>
+    
+</div>
+     
+<div class="upload-button">
+        
+<button class="upload">Upload</button>
+
+      
+</div>
+  
+</div>
+ 
+  
+</body>
+
+</html>
